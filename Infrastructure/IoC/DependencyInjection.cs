@@ -16,6 +16,7 @@ public static class DependencyInjection
                 password: rabbitMqSettings["Password"]
             ));
         services.AddScoped<IMessagingService, RabbitMqService>();
+        services.AddHostedService<RabbitMqConsumerService>();
         return services;
     }
 }
