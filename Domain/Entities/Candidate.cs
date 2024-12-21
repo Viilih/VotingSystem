@@ -6,5 +6,5 @@ public class Candidate
 
     public string Name { get; set; } = string.Empty;
     
-    private List<Vote>? Votes { get; set; }
+    public List<Vote>? Votes { get; set; }
 }

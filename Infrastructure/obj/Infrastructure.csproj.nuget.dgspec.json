@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/vili/Documents/C#/VotingSystem/Infrastructure/Infrastructure.csproj": {}
+    "/home/vili/Documents/Projects/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/vili/Documents/C#/VotingSystem/Application/Application.csproj": {
+    "/home/vili/Documents/Projects/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vili/Documents/C#/VotingSystem/Application/Application.csproj",
+        "projectUniqueName": "/home/vili/Documents/Projects/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/vili/Documents/C#/VotingSystem/Application/Application.csproj",
+        "projectPath": "/home/vili/Documents/Projects/Application/Application.csproj",
         "packagesPath": "/home/vili/.nuget/packages/",
-        "outputPath": "/home/vili/Documents/C#/VotingSystem/Application/obj/",
+        "outputPath": "/home/vili/Documents/Projects/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/vili/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/vili/Documents/C#/VotingSystem/Domain/Domain.csproj": {
-                "projectPath": "/home/vili/Documents/C#/VotingSystem/Domain/Domain.csproj"
+              "/home/vili/Documents/Projects/Domain/Domain.csproj": {
+                "projectPath": "/home/vili/Documents/Projects/Domain/Domain.csproj"
               }
             }
           }
@@ -36,12 +36,38 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -63,18 +89,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/vili/.dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/vili/Documents/C#/VotingSystem/Domain/Domain.csproj": {
+    "/home/vili/Documents/Projects/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vili/Documents/C#/VotingSystem/Domain/Domain.csproj",
+        "projectUniqueName": "/home/vili/Documents/Projects/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/vili/Documents/C#/VotingSystem/Domain/Domain.csproj",
+        "projectPath": "/home/vili/Documents/Projects/Domain/Domain.csproj",
         "packagesPath": "/home/vili/.nuget/packages/",
-        "outputPath": "/home/vili/Documents/C#/VotingSystem/Domain/obj/",
+        "outputPath": "/home/vili/Documents/Projects/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/vili/.nuget/NuGet/NuGet.Config"
@@ -95,12 +121,38 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -122,18 +174,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/vili/.dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/vili/Documents/C#/VotingSystem/Infrastructure/Infrastructure.csproj": {
+    "/home/vili/Documents/Projects/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vili/Documents/C#/VotingSystem/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/vili/Documents/Projects/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/vili/Documents/C#/VotingSystem/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/home/vili/Documents/Projects/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/vili/.nuget/packages/",
-        "outputPath": "/home/vili/Documents/C#/VotingSystem/Infrastructure/obj/",
+        "outputPath": "/home/vili/Documents/Projects/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/vili/.nuget/NuGet/NuGet.Config"
@@ -148,8 +200,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/vili/Documents/C#/VotingSystem/Application/Application.csproj": {
-                "projectPath": "/home/vili/Documents/C#/VotingSystem/Application/Application.csproj"
+              "/home/vili/Documents/Projects/Application/Application.csproj": {
+                "projectPath": "/home/vili/Documents/Projects/Application/Application.csproj"
               }
             }
           }
@@ -158,12 +210,38 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -197,7 +275,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/vili/.dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
